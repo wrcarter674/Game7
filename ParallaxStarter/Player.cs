@@ -41,12 +41,12 @@ namespace ParallaxStarter
         /// <summary>
         /// The player's position in the world
         /// </summary>
-        Vector2 Position { get; set; }
+        public Vector2 Position { get; set; }
 
         /// <summary>
         /// How fast the player moves
         /// </summary>
-        float Speed { get; set; } = 100;
+        public float Speed { get; set; } = 100;
 
         /// <summary>
         /// Constructs a player
